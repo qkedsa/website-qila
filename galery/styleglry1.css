@@ -1,0 +1,246 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+ *{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+ }
+
+ .navbar{
+
+    font-weight: 500;  
+    background-color: #ffff;
+
+    
+ }
+
+ .container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 40px 20px 0 20px;
+ }
+ 
+ .container2 .heading {
+  width: 50%;
+  padding-bottom: 50px;
+ }
+
+ .container2 .heading h3 {
+  font-size: 3em;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  text-align: center;
+  border-bottom: 3px solid #222;
+ }
+
+ .container2 .heading h3 span {
+  font-weight: 100;
+ }
+
+ .container2 .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+ }
+
+ .container2 .box .dream {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+ }
+
+ .container2 .box .dream img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+ }
+
+ .container2 .btn {
+  margin: 40 0 70px 0;
+  background: #222;
+  padding: 15px 40px;
+  border-radius: 5px;
+ }
+
+ .container2 .btn a {
+  color: #fff;
+  font-size:  1.2em;
+  text-decoration: none;
+  font-weight: bolder;
+  letter-spacing: 3px;
+ }
+
+ .galery {
+  padding-top: 0%;
+  padding-bottom: 13%;
+ }
+
+.main{
+    padding-top: 13%;
+    padding-bottom: 13%;
+  
+    background: url(./home/asset/1.png);
+    background-size: cover;
+    
+ }
+
+ .cont3{
+    padding-top: 13%;
+    padding-bottom: 13%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #201461e7;
+    
+ }
+
+
+
+ .cont5{
+  padding-top: 10%;
+  padding-bottom: 13%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #ffffffe7;
+ }
+
+ .cont4{
+  padding-top: 16%;
+  padding-bottom: 16%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: url(./about/asset/gambar\ set\ 2.png);
+  background-size: cover;
+}
+
+ p4{
+    font-size: 15pt;
+    font-weight: bold;
+ }
+ .container{
+    color: #ffff;
+ }
+ .container1{
+    color: rgb(58, 58, 58);
+ }
+
+ .cont2{
+    padding-top: 13%;
+    padding-bottom: 9%;
+ }
+
+ h2{
+    padding-top: 3%;
+font-size: large;
+font-weight: bold;
+
+ }
+
+p1{
+font-size: medium;
+}
+
+ P{
+    font-size: larger;
+    font-weight: lighter;
+ }
+
+ .btn btn-primary{
+    background-color: rgb(89, 68, 206);
+ }
+
+ .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #6c1ee9;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li{
+    font-size: 16px;
+    color: #28272b;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+  }
+
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #28272b;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+  }
+  
+  .footer-col ul li a:hover{
+    color: #908eff;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.274);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
+.footer-bottom{
+    padding: 2%;
+}
+  
